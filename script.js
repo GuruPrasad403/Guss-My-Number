@@ -26,7 +26,8 @@ message.innerHTML="please enter a number";
 else if(num == scrceatNumber){
     document.querySelector("body").style.backgroundColor="green"
     setTimeout(() =>{
-        document.querySelector("body").style.backgroundColor="#222"
+        document.querySelector("body").style.backgroundColor="#222";
+         number.innerHTML="?"
     },1000)
     number.innerHTML=scrceatNumber;
     message.innerHTML="Grate, it's a correct Number";
